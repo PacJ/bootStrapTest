@@ -46,33 +46,11 @@ function SectionLogin() {
         <Container>
           <Row>
             <Col className="mx-auto" lg="4" md="6">
-              <Card className="card-register">
-                <h3 className="title mx-auto">뭐가 뭔지 몰라서</h3>
+              <Card className="card-register" style={{backgroundColor: 'black'}}>
+                <h3 className="title mx-auto">로그인</h3>
                 <div className="social-line text-center">
-                  <Button
-                    className="btn-neutral btn-just-icon mt-0"
-                    color="facebook"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook-square" />
-                  </Button>
-                  <Button
-                    className="btn-neutral btn-just-icon mt-0 ml-1"
-                    color="google"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus" />
-                  </Button>
-                  <Button
-                    className="btn-neutral btn-just-icon mt-0 ml-1"
-                    color="twitter"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-twitter" />
-                  </Button>
+                  
+                  
                 </div>
                 <Form className="register-form">
                   <label>Email</label>
@@ -98,6 +76,7 @@ function SectionLogin() {
                     className="btn-round"
                     color="danger"
                     type="button"
+                    style={{backgroundColor:'whitesmoke', color: 'black', border:'1px solid black'}}
                   >
                     Register
                   </Button>

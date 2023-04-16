@@ -39,6 +39,8 @@ import SectionDark from "views/index-sections/SectionDark.js";
 import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
+import SignUp from "my-components/signupCard";
+import LoginCard from "my-components/loginCard";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -63,7 +65,9 @@ function Index() {
         <SectionCarousel />
         <SectionNucleoIcons />
         <SectionDark />
-        <SectionLogin />
+        <LoginCard />
+        {/* <SectionLogin /> */}
+        <SignUp />
         <SectionExamples />
         <SectionDownload />
         <DemoFooter />
